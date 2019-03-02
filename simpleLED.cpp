@@ -1,5 +1,5 @@
 /*******************************************
-    #include "abc.h"        // <abc_h>                  
+    #include "abc.H"        // <abc_h>                  
     #include <Arduino.h>                   
     
     (var) abc::funct { }    // functions{..}        
@@ -13,9 +13,9 @@ void simpleLED::LED(byte _pin, int _times, int _onTime)     // use same var in a
 
     for ( int i = 0; i < _times; i++ )
     {
-        digitalWrite(pin, HIGH);
+        digitalWrite(_pin, HIGH);
         delay(_onTime);
-        digitalWrite(pin, LOW);
+        digitalWrite(_pin, LOW);
         delay(_onTime);
     }
 }
