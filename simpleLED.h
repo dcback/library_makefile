@@ -21,8 +21,8 @@ class simpleLED
         simpleLED(void) {};     // Constructor for function parameter 
         ~simpleLED(void) {};    // Constructor for function parameter 
         
-        void    LED( byte pin, int times, int onTime);  // same Function var & Not _var
-        boolean Switch(int digitalPin);
+        void    LED( byte _pin, int _times, int _onTime);  // same Function var & Not _var
+        boolean Switch(int _digitalPin);
 
     private:            // variables & function within library
         byte _pin;      // must types _aaa
