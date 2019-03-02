@@ -3,12 +3,12 @@
     #define abc_H
     #include <Arduino.h> 
     class abc { 
-       public:          //functions  for main code 
+       public:          //functions  for main excute
            abc() { }; 
            ~abc() { };  
-           functions(); // for main excution
+           functions(); // + vars for main excute
        private: 
-           variables(_var), functions() within library
+           type _var, functions() within library
     };   
 ******************************************************/
 #ifndef simpleLED_H
