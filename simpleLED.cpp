@@ -1,9 +1,8 @@
 /*******************************************
-    #include "abc.H"        // <abc_h>                  
+    #include "abc.H"        // <abc_h>      
     #include "Arduino.h"                   
-    
-    (var) abc::funct { }    // functions{..}        
-*********************************************/
+    var abc::functtions(){ ... }          
+*******************************************/
 #include "simpleLED.h"
 #include "Arduino.h" 
 
