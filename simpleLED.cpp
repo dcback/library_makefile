@@ -2,30 +2,26 @@
     #include "abc.h"        // <abc_h>                  
     #include <Arduino.h>                   
     
-    (var) abc::funct { }    // functions{..}
-        _var = var
+    (var) abc::funct { }    // functions{..}        
 *********************************************/
 #include <simpleLED.h>
 #include <Arduino.h> 
 
-void simpleLED::LED(byte pin, int times, int onTime)     // use same var in abc.h
+void simpleLED::LED(byte _pin, int _times, int _onTime)     // use same var in abc.h
 {
     pinMode(pin, OUTPUT);
 
-    for ( int i = 0; i < times; i++ )
+    for ( int i = 0; i < _times; i++ )
     {
         digitalWrite(pin, HIGH);
-        delay(onTime);
+        delay(_onTime);
         digitalWrite(pin, LOW);
-        delay(onTime);
+        delay(_onTime);
     }
-    _pin = pin;         // no types, only _var = var
-    _times = times;     // no types, only _var = var
-    _onTime = onTime;   // no types, only _var = var
 }
 
-boolean simpleLED::Switch(int digitalPin)
+boolean simpleLED::Switch(int _digitalPin)
 {
-    pinMode(digitalPin, INPUT_PULLUP);
-    return  digitalRead(digitalPin);   
+    pinMode(_digitalPin, INPUT_PULLUP);
+    return  digitalRead(_digitalPin);   
 }
