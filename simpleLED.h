@@ -1,16 +1,16 @@
-/**********************************************
+/***************************************************
     #ifndef abc_H
     #define abc_H
     #include <Arduino.h> 
     class abc { 
-       public:  functions  for main code 
-           abc::abc() { } 
-           abc::~abc() { }  
-           functions for main code
+       public:          //functions  for main code 
+           abc() { }; 
+           ~abc() { };  
+           functions() { }; for main code
        private: 
-           variables, functions within library
+           variables, functions() within library
     };   
-************************************************/
+****************************************************/
 #ifndef simpleLED_H
 #define simpleLED_H
 
