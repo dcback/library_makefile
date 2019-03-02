@@ -1,6 +1,6 @@
 /*****************************************************
-    #ifndef abc_h
-    #define abc_h
+    #ifndef abc_H
+    #define abc_H
     #include <Arduino.h> 
     class abc { 
        public:          //functions  for main excute
@@ -11,8 +11,8 @@
            type _var, functions() within library
     };   
 ******************************************************/
-#ifndef simpleLED_h
-#define simpleLED_h
+#ifndef simpleLED_H
+#define simpleLED_H
 
 #include <Arduino.h>            // necessary for arduino codes
 
@@ -24,10 +24,11 @@ class simpleLED
         void    LED( byte _pin, int _times, int _onTime);  // same Function var & Not _var
         boolean Switch(int _digitalPin);
 
-    private:            // variables & function within library
-        byte _pin;      // must types _aaa
-        int  _times;    // must types _bbb
-        int  _onTime;   // must types _ccc
+    private:                // variables & function within library
+        byte _pin;          // must types _aaa
+        int  _times;        // must types _bbb
+        int  _onTime;       // must types _ccc
+        int  _digitalPin;   // must types _ddd
 };
 
 #endif
