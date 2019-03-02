@@ -1,8 +1,8 @@
 /******************************************
-    #include "abc_H"                       
+    #include "abc_H"        // <abc_H>                  
     #include <Arduino.h>                   
     functions { ...  }
-       (var) abc::funct { }   <- abc_H
+       (var) abc::funct { } // abc_H
 *******************************************/
 #include <simpleLED.h>
 #include <Arduino.h> 
