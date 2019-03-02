@@ -1,6 +1,6 @@
 /*****************************************************
-    #ifndef abc_H
-    #define abc_H
+    #ifndef abc_h
+    #define abc_h
     #include <Arduino.h> 
     class abc { 
        public:          //functions  for main excute
@@ -11,8 +11,8 @@
            type _var, functions() within library
     };   
 ******************************************************/
-#ifndef simpleLED_H
-#define simpleLED_H
+#ifndef simpleLED_h
+#define simpleLED_h
 
 #include <Arduino.h>            // necessary for arduino codes
 
