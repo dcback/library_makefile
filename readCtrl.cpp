@@ -1,3 +1,8 @@
+/*******************************************
+    #include "abc.H"
+    #include "Arduino.h"
+    var abc::functtions(){ ... }
+*******************************************/
 #include "readCtrl.h"
 #include "Arduino.h"
 
