@@ -4,7 +4,7 @@
     functions { ...  }
        (var) abc::funct { }   <- abc_H
 *******************************************/
-#include "simpleLED.h"
+#include <simpleLED.h>
 #include <Arduino.h> 
 
 void simpleLED::LED(byte pin, int times, int onTime)     // use same var in abc.h
