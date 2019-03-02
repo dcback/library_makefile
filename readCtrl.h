@@ -1,3 +1,17 @@
+/*****************************************************
+    #ifndef abc_H
+    #define abc_H
+    #include "Arduino.h"
+    class abc {
+       public:          //functions  for main excute
+           abc() { };
+           ~abc() { };
+           functions(); // + vars for main excute
+       private:
+           type _var, functions() within library
+    };
+    #endif
+******************************************************/
 #ifndef readCtrl_H
 #define readCtrl_H
 
