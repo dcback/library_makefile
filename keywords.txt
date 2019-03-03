@@ -9,3 +9,8 @@ readPin		KEYWORD2
 writePin	KEYWORD2
 refValue	KEYWORD2
 Read_Control;	KEYWORD3
+calc	KEYWORD1
+add	KEYWORD2
+sub	KEYWORD2
+mul	KEYWORD2
+div	KEYWORD2
