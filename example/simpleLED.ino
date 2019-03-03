@@ -1,3 +1,8 @@
+/*******************************************
+    #include "abc.H"
+    abc Oper;  -> Oper.functions() at loop
+    Oper.functtions(); in loop
+*******************************************/
 #include "simpleLED.h"  // Local library call 
 
 simpleLED cTRL;         // for function parameter in loop..
