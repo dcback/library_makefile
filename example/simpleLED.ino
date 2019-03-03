@@ -1,7 +1,7 @@
 /*******************************************
     #include "abc.H"
     abc Oper;  -> Oper.functions() at loop
-    Oper.functtions(); in loop
+    Oper.functions(); in loop
 *******************************************/
 #include "simpleLED.h"  // Local library call 
 
