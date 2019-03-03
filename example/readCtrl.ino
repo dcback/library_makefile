@@ -1,3 +1,8 @@
+/*******************************************
+    #include "abc.H"
+    abc Oper;  -> Oper.functions() at loop
+    Oper.functtions(); in loop
+*******************************************/
 #include "readCtrl.h"
 
 readCtrl Read_Control;
