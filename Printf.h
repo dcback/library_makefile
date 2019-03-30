@@ -1,5 +1,5 @@
-#ifndef PRINTF_H_
-#define PRINTF_H_
+#ifndef PRINTF_H
+#define PRINTF_H
 
 #include <Arduino.h>
 
