@@ -1,4 +1,5 @@
 /**********************************************************
+    printfBegin()           // must for use <Printf.h>
     printf("str")           // RAM 
     printf_P(PSTR("str"))   // Flash
     printf("%d %c %s\n", dec, char, str)        // RAM    
@@ -11,7 +12,7 @@ void setup()
 {
     Serial.begin(9600);
 
-    printfBegin();    // Redirect printf() calls to the first serial port
+    printfBegin();    // Redirect printf() calls to the first serial port(must for use <Printf.h>)
 
     // Use printf() with string in RAM
     printf("Hello world with printf() string in RAM\n");
