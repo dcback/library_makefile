@@ -3,6 +3,7 @@
     printf_P(PSTR("str"))   // Flash
     printf("%d %c %s\n", dec, char, str)        // RAM    
     printf_P(PSTR("%d %c %s\n"),dec, char, str) // Flash 
+    // printf_P() is not operated STM32 
 /*********************************************************/
 #include <Printf.h>
 
